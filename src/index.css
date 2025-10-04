@@ -43,7 +43,7 @@ html, body, #root, .App {
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: rgb(18, 17, 17);
+  background-color: rgb(5, 5, 5);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -73,19 +73,22 @@ html, body, #root, .App {
   font-weight: bold;
   text-decoration: none;
   color: white;
+  border-top: transparent;
+  border-bottom: transparent;
+
 }
 
 .nav-links a:hover{
-  border-top: 3px solid rgb(137, 171, 250);
-  border-bottom: 3px solid rgb(137, 171, 250);
+  border-top: 1px solid rgb(137, 171, 250);
+  border-bottom: 1px solid rgb(137, 171, 250);
   cursor: pointer;
+  transition: .8s ease border;
 }
 
 #home {
-  margin-top: 80px;
-  padding-top: 80px; 
+  margin-top: 350px;
   text-align: center;
-  scroll-margin-top: 100px;
+  scroll-margin-top: 350px;
 }
 
 
@@ -171,8 +174,8 @@ html, body, #root, .App {
 }
 
 #About{
-  margin: 500px 0px;
-  scroll-margin-top: 120px;
+  margin: 800px 0px;
+  scroll-margin-top: 320px;
 }
 
 .heading{
@@ -234,7 +237,7 @@ html, body, #root, .App {
 
 #Projects{
   margin-top: 150px;
-  scroll-margin-top: 90px;
+  scroll-margin-top: 150px;
 }
 
 .project-container {
@@ -242,7 +245,7 @@ html, body, #root, .App {
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   max-width: 1200px;
-  margin: 0 auto; 
+  margin: 40px auto; 
   align-items: stretch; 
 }
 
@@ -300,7 +303,7 @@ html, body, #root, .App {
 }
 
 #Contact{
-  margin-top: 200px;
+  margin-top: 550px;
   scroll-margin-top: 115px;
 }
 
@@ -357,9 +360,9 @@ form textarea{
 }
 
 footer{
-  background-color: rgb(18, 17, 17);
+  background-color: rgb(5, 5, 5);
   width: 100%;
-  margin-top: 55px;
+  margin-top: 425px;
   
 }
 
@@ -383,3 +386,6 @@ footer{
   cursor: pointer;
 }
 
+@media (max-width: 1185px) {
+
+}
