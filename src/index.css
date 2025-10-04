@@ -4,7 +4,7 @@ html, body, #root, .App {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
-  font-family: serif;
+  font-family: Times, Cambria;
   scroll-behavior: smooth;
 }
 
@@ -271,8 +271,8 @@ html, body, #root, .App {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(0, 0, 0);
-  padding: 20px;
+  background-color: rgb(3, 3, 3);
+  padding: 30px;
   text-align: center;
   transition: transform 0.3s ease;
   animation: float 4s ease-in-out infinite;
@@ -316,7 +316,7 @@ form{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 40px;
+  gap: 50px;
   padding: 20px;
 }
 
@@ -329,7 +329,7 @@ form{
 
 form input, 
 form textarea {
-  width: 300px;
+  width: 400px;
   height: 20px;
   font-size: 20px;
   border: 3px solid white;
@@ -371,6 +371,7 @@ footer{
   align-items: center;
   justify-content: center;
   gap: 40px;
+  padding: 20px;
 }
 
 .footer-links img{
@@ -386,6 +387,3 @@ footer{
   cursor: pointer;
 }
 
-@media (max-width: 1185px) {
-
-}
