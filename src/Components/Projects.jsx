@@ -36,13 +36,23 @@ function Projects(){
                         <button className="btn proj-btn">Explore Now</button>
                     </a>
                 </div>
-                <div className="project-box proj-box-4">
-                    <a href="https://github.com/Rs134" target="_blank">
-                        <button className="btn proj-btn">View More</button>
+                <div className="project-box">
+                    <img src="/media/aftershock.png"/>
+                    <p className="project-caption"> 
+                        Deployed a full stack web application featuring an AI powered chatbot that 
+                        assists car accident survivors mental health recovergy and well-being. 
+                          
+                    </p>
+                    <a href="https://aftershock.onrender.com/" target="_blank">
+                        <button className="btn proj-btn">Explore Now</button>
                     </a>
                 </div>
+                
 
             </div>
+            <div className="additional-projects-container">
+                    <button className="additional-projects btn"> View More </button>
+                </div>
         </div>
     )
 
