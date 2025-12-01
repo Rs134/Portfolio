@@ -73,16 +73,16 @@ html, body, #root, .App {
   font-weight: bold;
   text-decoration: none;
   color: white;
-  border-top: transparent;
-  border-bottom: transparent;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  transition: border-color 1s ease;
 
 }
 
 .nav-links a:hover{
-  border-top: 1px solid rgb(137, 171, 250);
-  border-bottom: 1px solid rgb(137, 171, 250);
+  border-color: rgb(137, 171, 250);
   cursor: pointer;
-  transition: .8s ease border;
+  
 }
 
 #home {
