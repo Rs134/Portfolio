@@ -233,6 +233,7 @@ html, body, #root, .App {
 .about-img-grid img:hover {
   transform: scale(1.1);
   box-shadow: 1px 1px 10px rgb(137, 171, 250);
+  cursor: pointer;
 }
 
 #Projects{

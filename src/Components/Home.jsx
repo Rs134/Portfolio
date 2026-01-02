@@ -3,7 +3,7 @@ function Home (){
         <div id="home">
             <div className="home-container">
                 <h1 className="home-heading"> 
-                    Hello! I am <span className="name"> Reiad Sakoor</span>.
+                    Hi! I am <span className="name"> Reiad Sakoor</span>.
                     <br> 
                     </br>
                     I am an aspiring full stack developer.
