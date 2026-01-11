@@ -197,8 +197,8 @@ html, body, #root, .App {
   line-height: 1.5;
   text-align: center;
   color: rgb(255, 255, 255);
-  border-top: 5px solid rgb(137, 171, 250);
-  border-bottom: 5px solid rgb(137, 171, 250);
+  border-top: 3px solid rgb(137, 171, 250);
+  border-bottom: 3px solid rgb(137, 171, 250);
   font-weight: bolder;
   letter-spacing: 1px;
 

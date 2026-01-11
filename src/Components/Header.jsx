@@ -4,7 +4,7 @@ function Header(){
     return (
         <div className="header-container">
             <div className="header-initial">
-                <h1> RS. </h1>
+                <h1> RS </h1>
             </div>
             <div className="nav-container">
                 <ul className="nav-links">
