@@ -51,7 +51,9 @@ function Projects(){
 
             </div>
             <div className="additional-projects-container">
-                    <button className="additional-projects btn"> View More </button>
+                    <a href="https://github.com/Rs134" target="_blank">
+                        <button className="additional-projects btn"> View More </button>
+                    </a>
                 </div>
         </div>
     )

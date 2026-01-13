@@ -326,6 +326,7 @@ form{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   gap: 40px;
 }
 
@@ -349,13 +350,13 @@ form textarea:focus, textarea:hover {
 
 
 form input::placeholder, input, textarea, textarea::placeholder{
-  color: white;
-  background-color: black;
+  color: rgb(255, 255, 255);
+  background-color: rgb(5, 5, 5);
 
 }
 
 form textarea{
-  width: 500px;
+  width: 550px;
   height: 200px;
   padding: 10px;
   font-size: 20px;
