@@ -53,14 +53,14 @@ const Contact = () => {
                     placeholder="Your Email"
                     required
                     />
+                    </div>
                     <textarea
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                placeholder="Your Message"
-                required
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    placeholder="Your Message"
+                    required
                 />
-                </div>
                 <button className='btn' type="submit">Submit</button>
             </form>
         </div>

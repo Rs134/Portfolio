@@ -164,7 +164,7 @@ html, body, #root, .App {
 .btn:hover{
   background-color: rgb(96, 143, 255);
   translate: 1px;
-  box-shadow: 0 0 30px rgb(137, 171, 250);
+  box-shadow: 0 0 10px rgb(137, 171, 250);
   cursor: pointer;
 }
 
@@ -272,7 +272,7 @@ html, body, #root, .App {
   align-items: center;
   flex-direction: column;
   justify-content: stretch;
-  background-color: rgb(3, 3, 3);
+  background-color: rgb(5, 5, 5);
   padding: 30px;
   text-align: center;
   transition: transform 0.3s ease;
@@ -326,7 +326,6 @@ form{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   gap: 40px;
 }
 
