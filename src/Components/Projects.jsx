@@ -26,13 +26,12 @@ function Projects(){
                     </a>
                 </div>
                 <div className="project-box">
-                    <img src="/media/projdata.jpg"/>
+                    <img src="/media/background.jpg"/>
                     <p className="project-caption"> 
-                        Designed a recipe data dashboard that depicts data fetched using 
-                        API calls. Added data summary statistics, filtering and graph visualizations based 
-                        on data.
+                    Designed an AI-powered home discovery tool that enables users to explore real housing data, intelligently 
+                    filtering results to surface homes that align with their preferences and goals.
                     </p>
-                    <a href="https://recipedashboard.netlify.app/" target="_blank">
+                    <a href="https://homelens-ab3o.onrender.com/" target="_blank">
                         <button className="btn proj-btn">Explore Now</button>
                     </a>
                 </div>

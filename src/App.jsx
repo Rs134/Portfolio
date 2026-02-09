@@ -18,12 +18,12 @@ function App() {
         <Projects/>
         <Contact/>
         <footer>
-        <div className="footer-links">
-          <a href='https://www.linkedin.com/in/reiad-sakoor-28432222a/' target='_blank'> <img src='/media/linkedini.png'/></a>
-          <a href='https://github.com/Rs134' target='_blank'> <img src='/media/githubi.png'/></a>
-          <a href='mailto:reiadwc@gmail.com'> <img src='/media/gmaili.png'/></a>
-        </div>
-      </footer>
+          <div className="footer-links">
+            <a href='https://www.linkedin.com/in/reiad-sakoor-28432222a/' target='_blank'> <img src='/media/linkedini.png'/></a>
+            <a href='https://github.com/Rs134' target='_blank'> <img src='/media/githubi.png'/></a>
+            <a href='mailto:reiadwc@gmail.com'> <img src='/media/gmaili.png'/></a>
+          </div>
+        </footer>
 
 
       </div>

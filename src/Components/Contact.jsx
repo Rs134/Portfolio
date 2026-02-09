@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { supabase } from '../supabase';
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -11,24 +10,9 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
-    const { name, email, message } = formData;
-
-    const { data, error } = await supabase
-      .from('contact') 
-      .insert([
-        { name, email, message },
-      ]);
-
-    if (error) {
-      console.error('Error submitting form:', error);
-    } else {
-      console.log('Form submitted successfully:', data);
-      alert('Your message has been sent successfully!');
-
-      // Clear the form after submission
+      alert("Thank You For Your Submission")
       setFormData({ name: '', email: '', message: '' });
-    }
+
   };
 
   return (

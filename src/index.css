@@ -389,3 +389,11 @@ footer{
   cursor: pointer;
 }
 
+
+@media (min-height: 700px){
+  #home{
+    margin-top: 250px;
+
+  }
+
+}
