@@ -86,7 +86,7 @@ html, body, #root, .App {
 }
 
 #home {
-  margin-top: 150px;
+  margin-top: 140px;
   text-align: center;
   scroll-margin-top: 350px;
 }
@@ -340,7 +340,6 @@ form textarea {
   transition: all 0.4s ease-in-out;
 }
 
-/* Animation on focus */
 form input:focus, input:hover,
 form textarea:focus, textarea:hover {
   transform: scale(1.03);
@@ -390,9 +389,9 @@ footer{
 }
 
 
-@media (min-height: 700px){
+@media (min-height: 100px){
   #home{
-    margin-top: 250px;
+    margin-top: 150px;
 
   }
 

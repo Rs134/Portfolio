@@ -1,7 +1,7 @@
 import React from 'react';
-import Background from './Components/Background'; // Adjust the path if needed
+import Background from './Components/Background'; 
 import Header from './Components/Header';
-import './index.css'; // Make sure your CSS is imported too
+import './index.css'; 
 import Home from './Components/Home';
 import About from './Components/About';
 import Projects from './Components/Projects';
@@ -15,7 +15,7 @@ function App() {
         <Header/>
         <Home/>
         <About/>
-        <Projects/>
+        <Projects />
         <Contact/>
         <footer>
           <div className="footer-links">
