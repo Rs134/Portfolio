@@ -1,0 +1,16 @@
+1. Create and switch to a new branch
+bashgit checkout -b redesign
+2. Make all your changes — edit, rewrite, whatever you want. Then commit as you go:
+bashgit add .
+git commit -m "redesign in progress"
+3. Push the branch to GitHub
+bashgit push origin redesign
+4. Preview it (optional but recommended)
+
+On Netlify/Vercel, it'll auto-generate a preview URL for the branch so you can share it or review before going live.
+
+5. When you're happy, merge into main
+bashgit checkout main
+git merge redesign
+git push origin main
+Your live site updates automatically. Done.
