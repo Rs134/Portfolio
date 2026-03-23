@@ -3,7 +3,7 @@ export default function About(){
     return (
         <div className="about-container flex align-center justify-between gap-4 mt-80 mx-10">
             <div className="about-1 flex align-center justify-center flex-col gap-8 text-center w-3/5">
-                <h1 className="heading">Leaving A Positive <span className="sub-heading">Impact</span></h1>
+                <h1 className="heading">Creating A Positive <span className="sub-heading">Impact</span></h1>
                 <p className="content about-content text-center">
                 I’m driven by challenges and the process of solving complex problems through technology. As an aspiring full-stack developer, I 
                 enjoy turning ideas into real-world applications that combine thoughtful design with strong technical foundations. 
