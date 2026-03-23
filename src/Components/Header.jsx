@@ -10,7 +10,6 @@ export default function Header(){
                     <a href="#" className="nav-links text-2xl font-bold "> About  </a>
                     <a href="#" className="nav-links text-2xl font-bold "> Experiences </a>
                     <a href="#" className="nav-links text-2xl font-bold "> Works </a>
-                    <a href="#" className="nav-links text-2xl font-bold "> Certifications </a>
                     <a href="#" className="nav-links text-2xl font-bold "> Contact </a>
                 </nav>
             </div>

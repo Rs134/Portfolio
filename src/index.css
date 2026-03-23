@@ -2,7 +2,7 @@
 
 :root{
   --bg-gradient: linear-gradient(145deg, rgb(9, 26, 131) 10%, rgb(9, 128, 233) 79%);  
-  --font-size-base: 1.2rem;
+  --font-size-base: 1.3rem;
   --font-size-heading: 3rem;
   --text-color: rgb(3, 76, 221);
   --content-color: rgb(124, 140, 147);
@@ -69,8 +69,8 @@ body{
   font-size: var(--font-size-base);
   color: var(--content-color);
   letter-spacing: 2px;
-  text-align: start;
-  width: 60%;
+  text-align: center;
+  width: 55%;
 }
 
 .about-content{
@@ -78,9 +78,52 @@ body{
 }
 
 .about-card{
-  background-color: rgba(13, 13, 13, 0.446);
+  background-color: rgba(26, 26, 26, 0.446);
 }
 
 .card-content{
   color: var(--content-color);
+}
+
+.education-container, .experience-container, .experience-card, .education-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;}
+
+
+.experience-card, .education-card {
+  background-color: rgba(26, 26, 26, 0.446);
+  align-items: start;
+  justify-content: start;
+  gap: 0.5rem;
+  position: relative;
+  width: 80%;
+  padding: 1.25rem 1.95rem;
+  border-radius: 0.75rem;
+  border-left: 2px solid rgb(179, 202, 255);
+  transition: 0.3s all;
+  font-size: var(--font-size-base);
+}
+
+.experience-card:hover, .education-card:hover {
+  background-color: rgba(26, 26, 26, 0.7);
+  transform: translateX(4px);
+}
+
+.card-title{
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-color);
+  font-family: serif;
+}
+
+.expr-content{
+  color: var(--content-color);
+  text-decoration: underline;
+}
+
+.expr-descr{
+  font-size: 1rem;
 }
