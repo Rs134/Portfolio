@@ -6,15 +6,12 @@ export default function Header(){
             </div>
             <div> 
                 <nav className="flex flex-row items-center justify-center tracking-wider gap-10"> 
-                    <a href="#" className="nav-links text-2xl font-bold "> Home </a>
-                    <a href="#" className="nav-links text-2xl font-bold "> About  </a>
-                    <a href="#" className="nav-links text-2xl font-bold "> Experiences </a>
-                    <a href="#" className="nav-links text-2xl font-bold "> Works </a>
-                    <a href="#" className="nav-links text-2xl font-bold "> Contact </a>
+                    <a href="#home" className="nav-links text-2xl font-bold "> Home </a>
+                    <a href="#about" className="nav-links text-2xl font-bold "> About  </a>
+                    <a href="#experience" className="nav-links text-2xl font-bold "> Experiences </a>
+                    <a href="#works" className="nav-links text-2xl font-bold "> Works </a>
+                    <a href="#contact" className="nav-links text-2xl font-bold "> Contact </a>
                 </nav>
-            </div>
-            <div> 
-                <button className="btn"> Stay In Touch </button>
             </div>
         </div>
     )

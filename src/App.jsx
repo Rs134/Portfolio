@@ -4,6 +4,7 @@ import Home from './Components/Home'
 import About from './Components/About'
 import Experience from './Components/Experience'
 import Works from './Components/Works'
+import Form from './Components/Form'
 
 export default function App (){
   return (
@@ -13,6 +14,7 @@ export default function App (){
       <About/>
       <Experience/>
       <Works/>
+      <Form/>
       
     </div>
 

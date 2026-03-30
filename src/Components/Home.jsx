@@ -1,6 +1,6 @@
 export default function Home(){
     return (
-        <div className="home-container flex items-center justify-center mt-30">
+        <div id="home" className="home-container flex items-center justify-center mt-30">
             <div className="home-content flex flex-col gap-1 items-center justify-center text-center">
                 <h1 className="heading"> Hi! I am <span className="sub-heading"> Reiad. </span></h1>
                 <h2 className="text-3xl tracking-wider"> Aspiring Full Stack Developer | Tech Enthusiast </h2>
