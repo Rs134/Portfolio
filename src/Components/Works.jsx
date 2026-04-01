@@ -9,7 +9,7 @@ import dashboard_thumbnail from "../assets/dashboard_thumbnail.png"
 export default function Works(){
 
     return(
-        <div id="works" className="works-outline mt-80">
+        <div id="works" className="works-outline my-80">
             <h1 className="heading text-center">Solutions In <span className="sub-heading">Action</span></h1>
             <div className="works-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
                 <WorksPanel img={As_thumbnail} altname="AfterShock Website Thumbnail" name="AfterShock" content="Dynamic application integrated with a chatbot to help individuals cope with post-accident distress and trauma" link="https://aftershock.onrender.com/" />

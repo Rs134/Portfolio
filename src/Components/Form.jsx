@@ -37,9 +37,9 @@ export default function Form(){
       };
 
     return (
-        <div id="contact" className="form-container my-80">
+        <div id="contact" className="form-container my-100">
             <h1 className="heading text-center">Let's <span className="sub-heading">Network</span></h1>
-            <div className="form-outline mt-12 flex items-center justify-center">
+            <div className="form-outline mt-10 flex items-center justify-center">
                 <form className="contact-form flex flex-col gap-6 align-center justify-center" onSubmit={onSubmit}>
                     <input 
                         className="form-input"
@@ -60,7 +60,7 @@ export default function Form(){
                     />
 
                     <textarea 
-                        className="form-input h-25"
+                        className="form-input h-45"
                         name="message"
                         placeholder="Message" 
                         value={formData.message}

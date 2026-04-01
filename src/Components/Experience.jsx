@@ -4,7 +4,7 @@ import ExperienceCard from './ExperienceCard';
 export default function Experience(){
     return(
 
-            <div className="journey-container mt-80" id="experience">
+            <div className="journey-container my-80" id="experience">
                 <h1 className="heading text-center">My <span className="sub-heading">Journey</span></h1>
                 <div className="outer-container flex items-center justify-center mt-10 flex-row mx-auto">
                     <div className="education-container">
